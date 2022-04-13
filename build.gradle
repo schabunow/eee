@@ -1,0 +1,13 @@
+plugins {
+id 'java'
+}
+
+repositories {
+mavenCentral()
+}
+
+dependencies{
+implementation 'org.junit.jupiter:junit-jupiter-api:5.5.1'
+testImplementation group: 'junit', name: 'junit', version: '4.12'
+testImplementation group: 'pl.pragmatists', name: 'JUnitParams', version: '1.0.6'
+}
